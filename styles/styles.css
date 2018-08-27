@@ -1,0 +1,49 @@
+#navnav{
+	background-color: rgba(253, 75, 80, 1);
+}
+
+#titlu{
+	margin-top: -40px;
+}
+
+#key-features{
+	background-image: url(../images/headband.jpg);
+	background-size: cover;
+	margin-bottom: 20px;
+
+}
+
+#mouthguard {
+	width: 20px
+	heigth: 300px;
+}
+
+#test {
+	color: red
+}
+
+
+#cardheader {
+	background-color: #F24D51;
+}
+
+#amazon {
+	 display: flex;
+  	justify-content: center;
+ 	 align-items: center;
+}
+
+#mouthguard-section{
+	background-color: rgba(253, 75, 80, 0.1);
+	color: white;
+	padding-bottom: 40px;
+	margin-top: 40px;
+}
+
+#reviews{
+	text-align: center;
+}
+
+.reviews{
+	min-width: 700px;
+}
