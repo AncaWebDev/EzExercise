@@ -2,6 +2,10 @@
 	background-color: rgba(253, 75, 80, 1);
 }
 
+.navbar-brand{
+    cursor: pointer;
+}
+
 #titlu{
 	margin-top: -40px;
 }

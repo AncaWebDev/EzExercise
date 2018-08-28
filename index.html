@@ -33,21 +33,50 @@
 </head>
 
 <body class="index-page sidebar-collapse">
-    <!-- Navbar -->
+  <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="400" id="navnav">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" rel="tooltip" title="Happy boxing!" data-placement="bottom" target="_blank">
-                    EZExercise
-                </a>
-                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" onclick="scrollToElement('#header-section', 400);">
+                EzExercise</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar bar1"></span>
                     <span class="navbar-toggler-bar bar2"></span>
                     <span class="navbar-toggler-bar bar3"></span>
                 </button>
             </div>
             <div class="collapse navbar-collapse justify-content-end" data-nav-image="./images/boxing4.png">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#key-features">
+                        <i class="now-ui-icons objects_globe"></i>
+                        <p>Key Features</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#instructions">
+                        <i class="now-ui-icons education_glasses"></i>
+                        <p>Instructions</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#reviews">
+                        <i class="now-ui-icons users_single-02"></i>
+                        <p>Reviews</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#mouthguard-section">
+                        <i class="now-ui-icons shopping_tag-content"></i>
+                        <p>Bonus</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#subscribe">
+                        <i class="now-ui-icons ui-2_favourite-28"></i>
+                        <p>Subscribe</p>
+                      </a>
+                    </li>
                     <li class="nav-item">
                         <a href="https://www.amazon.com/EZExercise-Portable-Punching-Coordination-Beginners/dp/B07DH6S2DC/ref=sr_1_22?s=sports-and-fitness&ie=UTF8&qid=1533902106&sr=1-22&keywords=boxing+reflex+ball?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank"><img src="http://www.niftybuttons.com/amazon/amazon-button3.png" alt="Amazon Button (via NiftyButtons.com)" width="120px"></a>
                     </li>
@@ -57,7 +86,7 @@
     </nav>
     <!-- End Navbar -->
     <div class="wrapper">
-        <div class="page-header clear-filter" filter-color="orange">
+        <div class="page-header clear-filter" filter-color="orange" id="header-section">
             <div class="page-header-image" data-parallax="true" style="background-image: url('./images/boxing4.png');">
             </div>
             <div class="container">
@@ -157,7 +186,7 @@
                 <img src="./images/mouthguard.jpg" alt="Raised Image" class="rounded img-raised width=" height="400px"><br><br><br>
             </div>
           </div>
-        <div class="section-basic" id="instructions">
+        <div class="section-basic"id="instructions">
           <div class="col-md-10 ml-auto col-xl-8 mr-auto">
               <p class="category"><h2>Instructions for use<h2></p>
               <!-- Tabs with Background on Card -->
@@ -297,5 +326,14 @@
 <script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/plugins/bootstrap-datepicker.js"></script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 <script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/now-ui-kit.js"></script>
+
+<script type="text/javascript">
+  scrollToElement = (el, ms) => {
+      let speed = (ms) ? ms : 600;
+      $('html,body').animate({
+          scrollTop: ($(el).offset().top - 50)
+      }, speed);
+}
+</script>
 
 </html>
