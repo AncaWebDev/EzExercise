@@ -9,8 +9,6 @@
 #key-features{
 	background-image: url(../images/headband.jpg);
 	background-size: cover;
-	margin-bottom: 20px;
-
 }
 
 #mouthguard {
@@ -27,23 +25,81 @@
 	background-color: #F24D51;
 }
 
-#amazon {
+#carousel-and-mouthguard-and-instructions{
+	    background: linear-gradient(0deg, rgb(56, 56, 55), rgb(248, 248, 248)),url(../images/ring2.jpg);
+	 	background-size: cover;
+	 	background-repeat: no-repeat;
+}
+
+#mouthguard-section{
+/*	background-image: url(../images/ring2.jpg);
+	background-size: cover;
+*/	color: white;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+#mouthguard-desc{
+	color:black;
+}
+
+#instructions{
+	margin-top: -20px;
+}
+
+#reviews{
+	 background: linear-gradient(0deg,rgba(0,0,0,.781),rgba(48,48,47,.715)),url(../images/ring.jpg);
+    background-size: cover;
+    color: rgba(255,255,255,.85);
+    padding:0px 100px 60px 100px;
+}
+
+#reviews-title{
+	text-align: center;
+	font-size: 3em;
+}
+
+.row-reviews{
+	opacity: 0.5;
+}
+
+.row-reviews:hover {
+	opacity: 1;
+}
+
+/*.reviews{
+	min-width: 700px;
+}*/
+
+#email-input {
 	 display: flex;
   	justify-content: center;
  	 align-items: center;
 }
 
-#mouthguard-section{
-	background-color: rgba(253, 75, 80, 0.1);
-	color: white;
-	padding-bottom: 40px;
-	margin-top: 40px;
+#boxing-bundle{
+	background-image: linear-gradient(rgb(1, 1, 1), rgb(128, 128, 128));
+	background-size: cover;
 }
 
-#reviews{
+#boxing-bundle-photo{
+	margin: 120px 0px;
+
+}
+
+ #boxing-bundle, #subscribe-button, #amazon-button, #amazon-text {
+	 display: flex;
+  	justify-content: center;
+ 	 align-items: center;
+ 	 text-align: center;
+}
+
+#subscribe-text{
 	text-align: center;
+	font-weight: bolder;
 }
 
-.reviews{
-	min-width: 700px;
+#subscribe {
+	background-color: grey;
+	padding: 20px
 }
