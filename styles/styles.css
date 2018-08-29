@@ -31,16 +31,29 @@
 	margin-top: -40px;
 }
 
-#key-features{
-	background-image: url(../images/headband.jpg);
-	background-size: cover;
+#click{
+	margin-top: -35px;
 }
 
-#carousel{
-	background: linear-gradient(0deg, rgb(189, 200, 203), rgb(248, 248, 248));
+#features h4 {
+	color:black;
+	margin-top: -30px;
+	text-align: left;
+}
+
+#features h4:hover{
+	font-size: 2em;
+}
+
+
+#key-features{
+	background: linear-gradient(0deg, rgb(192, 199, 202), rgb(213, 212, 212));
 	background-size: cover;
 	padding-bottom: 50px;
+	padding-top: 30px;
 }
+
+
 
 #mouthguard {
 	width: 20px
@@ -57,10 +70,11 @@
 }
 
 #mouthguard-and-instructions{
-	    background: linear-gradient(0deg, rgba(56, 56, 55,1), rgba(248, 248, 248,.5)),url(../images/boxer2.jpg);
+	    background: linear-gradient(0deg, rgba(56, 56, 55,1), rgba(248, 248, 248,.5)),url(../images/gloves.jpg);
+	     background-attachment: fixed;
+    	background-position: center;
 	 	background-size: cover;
 	 	background-repeat: no-repeat;
-	 	margin-top: -40px;
 }
 
 #mouthguard-section{
@@ -70,7 +84,7 @@
 	margin-top: 40px;
 	margin-bottom: 100px;
 	padding: 50px 0px 70px 0px;
-	background: linear-gradient(0deg, rgba(111, 124, 127,.8), rgba(248, 248, 248,.5))
+	background: linear-gradient(0deg, rgba(111, 124, 127,.2), rgba(248, 248, 248,.8))
 }
 
 #mouthguard-desc{
@@ -84,7 +98,7 @@
 }
 
 .card{
-	opacity: 0.8;
+	opacity: 0.7;
 }
 
 #reviews{
