@@ -8,6 +8,16 @@ html {
 min-width: 100%;
 }
 
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
 #navnav{
 	background-color: rgba(253, 75, 80, 1);
 }
@@ -75,13 +85,16 @@ min-width: 100%;
 }
 
 #mouthguard-title {
-	color: red
+	color: red;
+	padding-top: 50px;
 }
 
 
 #cardheader {
 	background-color: #F24D51;
 }
+
+
 
 #mouthguard-and-instructions{
 	    background: linear-gradient(0deg, rgba(56, 56, 55,1), rgba(248, 248, 248,.5)),url(../images/gloves.jpg);
@@ -101,8 +114,14 @@ min-width: 100%;
 	background: linear-gradient(0deg, rgba(111, 124, 127,.2), rgba(248, 248, 248,.8))
 }
 
+
+
 #mouthguard-desc{
 	color:black;
+}
+
+#mouthguard-photo{
+	opacity: 0.7;
 }
 
 #instructions{
@@ -111,11 +130,12 @@ min-width: 100%;
 	color: white;
 }
 
+
 .card{
 	opacity: 0.7;
 }
 
-#review-section{
+#reviews-section{
 	 background: linear-gradient(0deg,rgba(0,0,0,1),rgba(48,48,47,0.6)),url(../images/ring.jpg);
     background-size: cover;
     color: rgba(255,255,255,.85);
@@ -137,27 +157,17 @@ min-width: 100%;
     }
 }
 
-#review-section img{
-	opacity: 0.45;
+#reviews-section img{
+	opacity: 0.55;
 	display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#review-section img:hover {
+#reviews-section img:hover, #mouthguard-photo:hover {
 	opacity: 0.8;
 }
 
-
-/*.reviews{
-	min-width: 700px;
-}*/
-
-#email-input {
-	 display: flex;
-  	justify-content: center;
- 	 align-items: center;
-}
 
 #boxing-bundle{
 	background-image: linear-gradient(rgb(1, 1, 1), rgba(35, 35, 35,0.9));
@@ -170,7 +180,7 @@ min-width: 100%;
 	opacity: 0.8;
 }
 
- #boxing-bundle, #subscribe-button, #amazon-button, #amazon-text, #mouthguard-section{
+ #boxing-bundle, #subscribe-button, #amazon-button, #amazon-text, #mouthguard-section, #email-input{
 	 display: flex;
   	justify-content: center;
  	 align-items: center;
@@ -192,3 +202,4 @@ min-width: 100%;
 	padding-bottom: 30px;
 	color: white;
 }
+
