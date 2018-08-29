@@ -1,3 +1,13 @@
+body {
+margin : 0;
+padding: 0;
+box-sizing : border-box;
+}
+
+html {
+min-width: 100%;
+}
+
 #navnav{
 	background-color: rgba(253, 75, 80, 1);
 }
@@ -101,11 +111,12 @@
 	opacity: 0.7;
 }
 
-#reviews{
+#review-section{
 	 background: linear-gradient(0deg,rgba(0,0,0,1),rgba(48,48,47,0.6)),url(../images/ring.jpg);
     background-size: cover;
     color: rgba(255,255,255,.85);
-    padding:0px 100px 60px 100px;
+    padding:0px 20px 60px 20px;
+
 }
 
 #reviews-title{
@@ -113,12 +124,24 @@
 	font-size: 3em;
 }
 
-.row-reviews{
-	opacity: 0.5;
+
+
+@media and screen(max-width: 500){
+    #reviews img {
+        width: 600px;
+    	height: 300px;
+    }
 }
 
-.row-reviews:hover {
-	opacity: 1;
+#review-section img{
+	opacity: 0.45;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#review-section img:hover {
+	opacity: 0.8;
 }
 
 
@@ -143,7 +166,7 @@
 	opacity: 0.8;
 }
 
- #boxing-bundle, #subscribe-button, #amazon-button, #amazon-text {
+ #boxing-bundle, #subscribe-button, #amazon-button, #amazon-text, #mouthguard-section{
 	 display: flex;
   	justify-content: center;
  	 align-items: center;
@@ -162,5 +185,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 	padding-top: 300px;
+	padding-bottom: 30px;
 	color: white;
 }
