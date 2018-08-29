@@ -16,6 +16,10 @@ min-width: 100%;
     cursor: pointer;
 }
 
+#gallery{
+	display:block;
+	margin-top: 100px;
+}
 
 /*.page-header .page-header-image {
    background-attachment: fixed;
