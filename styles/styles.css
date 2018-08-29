@@ -6,6 +6,27 @@
     cursor: pointer;
 }
 
+
+/*.page-header .page-header-image {
+   background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+.page-header .content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 880px;
+}
+
 #titlu{
 	margin-top: -40px;
 }
@@ -15,12 +36,18 @@
 	background-size: cover;
 }
 
+#carousel{
+	background: linear-gradient(0deg, rgb(189, 200, 203), rgb(248, 248, 248));
+	background-size: cover;
+	padding-bottom: 50px;
+}
+
 #mouthguard {
 	width: 20px
 	heigth: 300px;
 }
 
-#test {
+#mouthguard-title {
 	color: red
 }
 
@@ -29,10 +56,11 @@
 	background-color: #F24D51;
 }
 
-#carousel-and-mouthguard-and-instructions{
-	    background: linear-gradient(0deg, rgb(56, 56, 55), rgb(248, 248, 248)),url(../images/ring2.jpg);
+#mouthguard-and-instructions{
+	    background: linear-gradient(0deg, rgba(56, 56, 55,1), rgba(248, 248, 248,.5)),url(../images/boxer2.jpg);
 	 	background-size: cover;
 	 	background-repeat: no-repeat;
+	 	margin-top: -40px;
 }
 
 #mouthguard-section{
@@ -41,6 +69,8 @@
 */	color: white;
 	margin-top: 40px;
 	margin-bottom: 100px;
+	padding: 50px 0px 70px 0px;
+	background: linear-gradient(0deg, rgba(111, 124, 127,.8), rgba(248, 248, 248,.5))
 }
 
 #mouthguard-desc{
@@ -49,10 +79,16 @@
 
 #instructions{
 	margin-top: -20px;
+/*	opacity: 0.8;*/
+	color: white;
+}
+
+.card{
+	opacity: 0.8;
 }
 
 #reviews{
-	 background: linear-gradient(0deg,rgba(0,0,0,.781),rgba(48,48,47,.715)),url(../images/ring.jpg);
+	 background: linear-gradient(0deg,rgba(0,0,0,1),rgba(48,48,47,0.6)),url(../images/ring.jpg);
     background-size: cover;
     color: rgba(255,255,255,.85);
     padding:0px 100px 60px 100px;
@@ -71,6 +107,7 @@
 	opacity: 1;
 }
 
+
 /*.reviews{
 	min-width: 700px;
 }*/
@@ -82,13 +119,14 @@
 }
 
 #boxing-bundle{
-	background-image: linear-gradient(rgb(1, 1, 1), rgb(128, 128, 128));
+	background-image: linear-gradient(rgb(1, 1, 1), rgba(35, 35, 35,0.9));
 	background-size: cover;
+	padding-bottom: 100px;
 }
 
 #boxing-bundle-photo{
-	margin: 120px 0px;
-
+	margin-top: 120px;
+	opacity: 0.8;
 }
 
  #boxing-bundle, #subscribe-button, #amazon-button, #amazon-text {
@@ -104,6 +142,11 @@
 }
 
 #subscribe {
-	background-color: grey;
-	padding: 20px
+    background-image: linear-gradient(0deg,rgba(48,48,47,0.8),rgba(0,0,0,.8)),url(../images/boxer.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	padding-top: 300px;
+	color: white;
 }
